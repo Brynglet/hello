@@ -51,5 +51,3 @@ http://localhost:5000/greeting?account=business&type=big
 http://localhost:5000/greeting?account=personal&id=12345
 
 etc
-
-
