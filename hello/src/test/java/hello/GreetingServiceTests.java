@@ -80,7 +80,7 @@ public class GreetingServiceTests {
     /* Test invalid messages start */
 
     @Test(expected = GreetingException.class)
-    public void testInvalidValidGreeting12() throws GreetingException, ValidationException {
+    public void testInvalidValidMessage1() throws GreetingException, ValidationException {
     	greetingService.getGreeting("business", "small", Long.valueOf(123L));
     }
 
