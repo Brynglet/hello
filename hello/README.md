@@ -39,11 +39,11 @@ Please provide an archive with the source code and a list of the terminal comman
 Instructions: (Windows 10, Command Prompt as admin)
 
 1.
-...\gs-rest-service-complete>mvnw clean install
+...\hello>mvnw clean install
 
-...\gs-rest-service-complete>docker build -t javademo:v1.0 .
+...\hello>docker build -t javademo:v1.0 .
 
-...\gs-rest-service-complete>docker run -d -p 5000:8080 javademo:v1.0
+...\hello>docker run -d -p 5000:8080 javademo:v1.0
 
 2.
 In browser: 
