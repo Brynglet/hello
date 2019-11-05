@@ -32,7 +32,7 @@ public class GreetingServiceTests {
     	assertEquals(greeting.getAccount(), Account.PERSONAL);
     	assertEquals(greeting.getType(), null);
     	assertEquals(greeting.getId(), Long.valueOf(123L));
-    	assertEquals(greeting.getMessage(), ("Hi, userId " + Long.valueOf(123L)));
+    	assertEquals(greeting.getMessage(), ("1Hi, userId " + Long.valueOf(123L)));
     }
 
     @Test
@@ -41,7 +41,7 @@ public class GreetingServiceTests {
     	assertEquals(greeting.getAccount(), Account.BUSINESS);
     	assertEquals(greeting.getType(), Type.BIG);
     	assertNull(greeting.getId());
-    	assertEquals(greeting.getMessage(), ("Welcome, business user!"));
+    	assertEquals(greeting.getMessage(), ("1Welcome, business user!"));
     }
 
     /* Test valid greetings end */

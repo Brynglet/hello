@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: hello.GreetingServiceTests
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.399 s - in hello.GreetingServiceTests
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.078 s <<< FAILURE! - in hello.GreetingServiceTests
+testValidGreeting2(hello.GreetingServiceTests)  Time elapsed: 0.009 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[2]Welcome, business us...> but was:<[1]Welcome, business us...>
+	at hello.GreetingServiceTests.testValidGreeting2(GreetingServiceTests.java:44)
+

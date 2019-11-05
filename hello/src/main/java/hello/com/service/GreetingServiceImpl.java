@@ -46,7 +46,7 @@ public class GreetingServiceImpl implements GreetingService {
 
 		if (Account.PERSONAL.equals(account) && id != null) {
 
-			return "Hi, userId " + id;
+			return "1Hi, userId " + id;
 
 		} else if (Account.BUSINESS.equals(account)) {
 
@@ -55,7 +55,7 @@ public class GreetingServiceImpl implements GreetingService {
 			}
 
 			if (Type.BIG.equals(type)) {
-				return "Welcome, business user!";
+				return "2Welcome, business user!";
 			}
 
 		}
