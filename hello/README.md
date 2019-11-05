@@ -35,6 +35,12 @@ We should be able to:
 Please provide an archive with the source code and a list of the terminal commands to build and run the application.
 
 //
+Docker:
+
+Remove with
+docker images
+docker image prune -a 
+docker rmi 7e5599db73c0 -f
 
 Instructions: (Windows 10, Command Prompt as admin)
 
