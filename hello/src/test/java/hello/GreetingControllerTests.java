@@ -109,7 +109,7 @@ public class GreetingControllerTests {
     	this.mockMvc.perform(get("/greeting")
     	.params(requestParams))
     	.andExpect(status().isOk())
-    	.andExpect(content().string("1Hi, userId 123"));
+    	.andExpect(content().string("Hi, userId 123"));
     	//.andDo(print());
     }
 
