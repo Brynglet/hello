@@ -35,13 +35,22 @@ We should be able to:
 Please provide an archive with the source code and a list of the terminal commands to build and run the application.
 
 //
-
 Docker:
 
 Remove with
-docker images
+docker images : images
+docker ps --all : containers 
 docker image prune -a 
 docker rmi 7e5599db73c0 -f
+
+
+\John\git\hello\hello>docker system prune
+WARNING! This will remove:
+  - all stopped containers
+  - all networks not used by at least one container
+  - all dangling images
+  - all dangling build cache
+
 
 Instructions: (Windows 10, Command Prompt as admin)
 
